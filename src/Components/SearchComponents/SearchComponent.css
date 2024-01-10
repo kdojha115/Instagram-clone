@@ -1,0 +1,33 @@
+.SearchContainer{
+    padding: 1rem 0rem;
+    border: 1px solid rgb(220, 220, 220);
+    box-shadow: 0 1px 2px rgb(2, 2, 2);
+    width: 300px;
+    height: 100vh;
+    z-index: 10;
+}
+
+.searchInput{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(233, 235, 236, 0.87);
+    padding: 5px 10px;
+    font-size: 13px;
+    width: 90%;
+    outline: none;
+    margin-left: 10px;
+    position: relative;
+}
+
+/* .close-button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+} */
+
+.SearchHistory{
+    max-height: 70vh;
+    overflow-y: scroll;
+}

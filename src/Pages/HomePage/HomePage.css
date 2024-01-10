@@ -1,0 +1,18 @@
+.okay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.storyCss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.storyDiv{
+    margin-top: 16px;
+    padding: 16px 0;
+    justify-content: center;
+}

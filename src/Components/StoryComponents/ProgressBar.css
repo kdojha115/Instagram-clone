@@ -1,0 +1,30 @@
+.progress-bar-container{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(88, 85, 85);
+    border-radius: 4px;
+    overflow: hidden;
+    opacity: .5;
+    transition: opacity .3 ease-out;
+    margin: 1rem;
+}
+
+.active{
+    opacity: 1;
+
+}
+
+.progress-bar{
+    height: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.storyUsername{
+    color: white;
+}
+
+.storyTime{
+    color: rgb(67, 68, 69);
+    opacity: 70;
+}
